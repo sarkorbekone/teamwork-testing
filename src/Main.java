@@ -5,5 +5,7 @@ public class Main {
         System.out.println("first team work");
 
         System.out.println("salom");
+        System.out.println("salom");
+        System.out.println("salom");
     }
 }
