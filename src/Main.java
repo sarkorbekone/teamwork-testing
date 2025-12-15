@@ -3,5 +3,8 @@ public class Main {
         Animal animal = new Animal("Dog",23);
         animal.showInfo();
 
+        Person person = new Person("Ali", 21);
+        person.aboutAnimalInfo();
+
     }
 }

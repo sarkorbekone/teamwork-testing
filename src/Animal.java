@@ -26,4 +26,5 @@ public class Animal {
     public void showInfo(){
         System.out.println(getName()+" age: "+getAge());
     }
+
 }
