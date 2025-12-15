@@ -24,7 +24,7 @@ public class Person {
         this.age = age;
     }
 
-    public void aboutAnimalInfo(){
+    public void aboutPersonInfo(){
         System.out.println("Ismi: " + getName() + "\nYoshi: " + getAge());
     }
 }
