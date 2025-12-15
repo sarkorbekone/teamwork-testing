@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teamwork Testing - Documentation</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f6f9;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            background: #ffffff;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+        }
+
+        /* Header Section */
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .banner-img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 12px;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            color: #2c3e50;
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            font-size: 1.2rem;
+            color: #666;
+            margin-bottom: 20px;
+        }
+
+        .badges img {
+            margin: 0 5px;
+            height: 28px;
+        }
+
+        /* Content Sections */
+        section {
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #eee;
+        }
+
+        section:last-child {
+            border-bottom: none;
+        }
+
+        h2 {
+            color: #0366d6; /* GitHub Blue */
+            font-size: 1.8rem;
+            margin-top: 0;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        p, li {
+            font-size: 1.05rem;
+        }
+
+        ul {
+            list-style-type: none; /* Remove default bullets */
+            padding-left: 0;
+        }
+
+        ul li {
+            position: relative;
+            padding-left: 25px;
+            margin-bottom: 10px;
+        }
+
+        ul li::before {
+            content: "•";
+            color: #0366d6;
+            font-weight: bold;
+            font-size: 1.5rem;
+            position: absolute;
+            left: 0;
+            top: -5px;
+        }
+
+        /* Code Blocks */
+        pre {
+            background-color: #1e1e1e;
+            color: #d4d4d4;
+            padding: 15px;
+            border-radius: 8px;
+            overflow-x: auto;
+            font-family: 'Consolas', 'Monaco', monospace;
+            font-size: 0.9rem;
+            border-left: 5px solid #0366d6;
+        }
+
+        code {
+            font-family: 'Consolas', 'Monaco', monospace;
+        }
+
+        /* Links */
+        a {
+            color: #0366d6;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            font-style: italic;
+            color: #888;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: #2ea44f;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 6px;
+            text-decoration: none;
+            margin-top: 10px;
+        }
+        
+        .btn:hover {
+            background-color: #2c974b;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        
+        <header>
+            <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=1470&auto=format&fit=crop" alt="Teamwork Banner" class="banner-img">
+            <h1>🤝 Teamwork Testing Framework</h1>
+            <p class="subtitle">A collaborative sandbox for mastering Git workflows and Java development.</p>
+            
+            <div class="badges">
+                <img src="https://img.shields.io/github/languages/top/sarkorbekone/teamwork-testing?style=for-the-badge&color=orange" alt="Language">
+                <img src="https://img.shields.io/github/repo-size/sarkorbekone/teamwork-testing?style=for-the-badge&color=blue" alt="Size">
+                <img src="https://img.shields.io/github/last-commit/sarkorbekone/teamwork-testing?style=for-the-badge&color=red" alt="Last Commit">
+                <img src="https://img.shields.io/badge/PRs-Welcome-brightgreen?style=for-the-badge" alt="PRs Welcome">
+            </div>
+            
+            <br>
+            <a href="https://github.com/sarkorbekone/teamwork-testing" class="btn">View on GitHub</a>
+        </header>
+
+        <section>
+            <h2>🧐 About The Project</h2>
+            <p>Welcome to <b>Teamwork Testing</b>! This repository is designed to simulate a real-world software development environment. It serves as a testing ground for developers to practice collaboration, resolve merge conflicts, and improve their Java coding skills in a team setting.</p>
+            <h3>Key Objectives:</h3>
+            <ul>
+                <li>🚀 <b>Master Git:</b> Learn to branch, commit, and merge effectively.</li>
+                <li>💻 <b>Java Practice:</b> Collaborate on shared Java classes and utilities.</li>
+                <li>🐛 <b>Bug Hunting:</b> Identify and fix issues introduced by "teammates".</li>
+                <li>🔄 <b>CI/CD Simulation:</b> Understand how code integrates into a main branch.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>📂 Project Structure</h2>
+            <p>The repository is organized to simulate a standard Java production environment:</p>
+            <pre>
+teamwork-testing/
+├── .idea/               # IntelliJ IDEA project configuration
+├── out/                 # Compiled build output
+├── src/                 # 📂 Source code (Main application logic)
+├── Teamwork.iml         # Module file
+└── README.md            # Documentation</pre>
+        </section>
+
+        <section>
+            <h2>🛠️ Getting Started</h2>
+            <p>Follow these steps to get a local copy up and running.</p>
+            
+            <h3>Prerequisites</h3>
+            <ul>
+                <li><b>Java JDK</b> (Version 17 or higher recommended)</li>
+                <li><b>IntelliJ IDEA</b> (or any preferred Java IDE)</li>
+                <li><b>Git</b> installed on your machine.</li>
+            </ul>
+
+            <h3>Installation</h3>
+            <p>1. <b>Clone the Repo</b></p>
+            <pre>git clone https://github.com/sarkorbekone/teamwork-testing.git</pre>
+
+            <p>2. <b>Open in IDE</b></p>
+            <ul>
+                <li>Open IntelliJ IDEA.</li>
+                <li>Select <code>File > Open</code> and choose the <code>teamwork-testing</code> folder.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>🤝 How to Contribute</h2>
+            <p>We love teamwork! This project exists thanks to contributors like you. Here is the workflow:</p>
+            <ol>
+                <li><b>Fork</b> the project (Click the button at the top right).</li>
+                <li><b>Create your Feature Branch</b> (<code>git checkout -b feature/AmazingFeature</code>).</li>
+                <li><b>Commit your Changes</b> (<code>git commit -m 'Add some AmazingFeature'</code>).</li>
+                <li><b>Push to the Branch</b> (<code>git push origin feature/AmazingFeature</code>).</li>
+                <li><b>Open a Pull Request</b> (PR) and tag us for review!</li>
+            </ol>
+            <blockquote>
+                <b>Tip:</b> Always pull the latest changes from <code>main</code> before starting your work to avoid conflicts!
+            </blockquote>
+        </section>
+
+        <section>
+            <h2>📬 Contact</h2>
+            <p><b>Project Maintainer:</b> <a href="https://github.com/sarkorbekone">Sarkorbek One</a></p>
+            <p>Project Link: <a href="https://github.com/sarkorbekone/teamwork-testing">https://github.com/sarkorbekone/teamwork-testing</a></p>
+        </section>
+
+        <footer>
+            <div align="center">
+                <i>Let's build something great together! 🚀</i>
+                <br>
+                <small>&copy; 2025 Teamwork Testing</small>
+            </div>
+        </footer>
+
+    </div>
+
+</body>
+</html>
