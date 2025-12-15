@@ -7,4 +7,5 @@ public class Main {
         person.aboutPersonInfo();
 
     }
+
 }
