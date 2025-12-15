@@ -1,13 +1,7 @@
 public class Main {
     public static void main(String[] args){
-        System.out.println("first team work");
-        System.out.println("first team work");
-        System.out.println("first team work");
-
-        System.out.println("salom");
-        System.out.println("salom");
-        System.out.println("salom");
-        System.out.println("salom");
+        Animal animal = new Animal("Dog",23);
+        animal.showInfo();
 
     }
 }
