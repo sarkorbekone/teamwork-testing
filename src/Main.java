@@ -4,7 +4,7 @@ public class Main {
         animal.showInfo();
 
         Person person = new Person("Ali", 21);
-        person.aboutAnimalInfo();
+        person.aboutPersonInfo();
 
     }
 }
